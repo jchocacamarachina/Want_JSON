@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: excel-to-json
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn main:app --workers 2 --threads 4 --timeout 120 --bind 0.0.0.0:$PORT
+    plan: free

@@ -1,5 +1,4 @@
-fastapi
-uvicorn
+flask
 pandas
 openpyxl
-python-multipart
+gunicorn

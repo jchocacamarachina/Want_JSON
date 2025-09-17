@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.build/
+dist/
+
+# Entornos
+.venv/
+venv/
+
+# Editor/OS
+*.swp
+.DS_Store
+.idea/
+.vscode/
+
+# Archivos locales
+.env
