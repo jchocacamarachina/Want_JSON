@@ -50,7 +50,8 @@ def excel_to_json_bytes(excel_bytes: bytes, sheet_name: str = "Hoja 1"):
         "NOMBRE CONTIFICO": "NOMBRE CONTIFICO",
         "PRECIO": "PRECIO",
         "DESCRIPCION": "DESCRIPCION",
-        "ENLACE WEB": "LINK IMAGEN",
+        "ENLACE WEB": "ENLACE WEB",
+        "LINK IMAGEN": "LINK IMAGEN"
     }
 
     faltantes = [c for c in columnas.keys() if c not in df.columns]

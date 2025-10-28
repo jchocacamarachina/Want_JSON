@@ -1,4 +1,4 @@
-# Python
+# 🐍 Python
 __pycache__/
 *.pyc
 *.pyo
@@ -7,15 +7,20 @@ __pycache__/
 .build/
 dist/
 
-# Entornos
+# 🧩 Entornos virtuales
 .venv/
 venv/
+env/
 
-# Editor/OS
+# 🧰 Configuración de editor y sistema
 *.swp
 .DS_Store
 .idea/
 .vscode/
 
-# Archivos locales
+# 🔒 Archivos sensibles
 .env
+
+# 📂 Archivos de datos locales
+*.json
+*.xlsx
